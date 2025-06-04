@@ -1,65 +1,62 @@
-# Bot de Gerenciamento de Escalações para Discord
+# 🤖 Bot de Gerenciamento de Escalações para Discord
 
-> ⚠️ **Projeto Privado** - Este repositório contém código proprietário e confidencial.
+> ⚠️ **REPOSITÓRIO PRIVADO**  
+> Este projeto é confidencial e protegido por direitos autorais.  
+> **Qualquer uso não autorizado — incluindo cópia, modificação ou distribuição — é estritamente proibido.**
 
-Um bot de Discord para gerenciar escalações de times, permitindo a criação de eventos, inscrições em vagas principais e reservas.
+---
 
-## 📋 Funcionalidades
+## 📌 Visão Geral
 
-- Criação de eventos de escalação com vagas limitadas
-- Sistema de vagas principais e reservas
-- Inscrição/desistência com apenas um clique
-- Exibição clara de participantes confirmados e reservas
-- Interface intuitiva com botões interativos
-- Suporte a imagens personalizadas nos eventos
+Este bot foi desenvolvido com foco em **gerenciar escalações de equipes no Discord de forma prática, interativa e eficiente**.  
+Ele permite criar, organizar e finalizar escalações com agilidade, utilizando botões, menus e lógica personalizada para ações temporizadas e controle de participantes.
 
-## 🚀 Como Usar
+🧪 **Disponível apenas para fins de avaliação profissional**, com o objetivo de demonstrar habilidades técnicas em Python, desenvolvimento de bots com Discord API e estruturação de projetos.
 
-1. **Configuração Inicial**
-   - Crie um bot no [Portal de Desenvolvedores do Discord](https://discord.com/developers/applications)
-   - Adicione o bot ao seu servidor com as permissões necessárias
-   - Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
-     ```
-     DISCORD_TOKEN=seu_token_aqui
-     ```
+---
 
-2. **Instalação**
-   ```bash
-   # Clone o repositório
-   git clone https://github.com/seu-usuario/escalation-bot-discord.git
-   cd escalation-bot-discord
-   
-   # Crie um ambiente virtual (opcional, mas recomendado)
-   python -m venv .venv
-   .venv\Scripts\activate  # No Windows
-   
-   # Instale as dependências
-   pip install -r requirements.txt
-   ```
+## 🔐 Aviso de Privacidade e Uso
 
-3. **Executando o Bot**
-   ```bash
-   python bot.py
-   ```
+Este repositório contém **código proprietário** e está sujeito às seguintes condições:
 
-4. **Comandos**
-   - `/criar_escalacao`: Cria um novo evento de escalação
+- 🔒 **Distribuição restrita**: não deve ser compartilhado, clonado ou utilizado em projetos externos.
+- ⚙️ **Acesso limitado**: permitido apenas para recrutadores ou parceiros autorizados.
+- 🚫 **É proibido**:
+  - Copiar, reutilizar ou redistribuir qualquer parte do código;
+  - Realizar engenharia reversa, descompilação ou derivar novas versões;
+  - Utilizar este projeto como base para outros bots sem permissão formal.
 
-## 🛠️ Estrutura do Projeto
+---
 
-- `bot.py`: Ponto de entrada principal do bot
-- `views.py`: Implementação das interfaces de usuário (modais e botões)
-- `escala_data.py`: Lógica de negócio para gerenciamento das escalações
-- `requirements.txt`: Dependências do projeto
+## 🗂️ Estrutura do Projeto
 
-## 🤝 Uso e Distribuição
+📁 projeto-bot-escala/
+├── bot.py # Arquivo principal, ponto de entrada do bot
+├── views.py # Interfaces e componentes interativos do Discord
+├── escala_data.py # Lógica de negócios e manipulação de dados de escalação
+├── requirements.txt # Lista de dependências e bibliotecas utilizadas
 
-Este é um projeto privado e confidencial. Qualquer uso, cópia, modificação ou distribuição não autorizada é estritamente proibida.
 
-## 🤝 Contribuição
+---
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
+## 🛠️ Funcionalidades Principais
 
-## 📞 Suporte
+- 📆 Criação e agendamento de escalações com data, hora e vagas
+- 👥 Definição de titulares e reservas
+- 🧩 Interface interativa com botões e modais no Discord
+- ⏳ Controle de tempo limite para escalações
+- ✅ Encerramento automatizado da escalação
 
-Para suporte, abra uma issue no repositório ou entre em contato com os mantenedores.
+---
+
+## 🚫 Termos de Uso
+
+Este projeto é de uso **estritamente profissional e não comercial**.  
+Seu conteúdo é protegido por direitos autorais e **não pode ser reutilizado, publicado ou derivado sem autorização por escrito**.
+
+---
+
+## 📬 Contato
+
+Caso você tenha acesso a este repositório como parte de uma avaliação técnica, dúvidas ou interesse em parcerias, entre em contato diretamente com o autor.
+
