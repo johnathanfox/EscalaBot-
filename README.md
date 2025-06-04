@@ -30,10 +30,10 @@ Este repositório contém **código proprietário** e está sujeito às seguinte
 
 ## 🗂️ Estrutura do Projeto
 
-📁 projeto-bot-escala/
-├── bot.py # Arquivo principal, ponto de entrada do bot
-├── views.py # Interfaces e componentes interativos do Discord
-├── escala_data.py # Lógica de negócios e manipulação de dados de escalação
+📁 projeto-bot-escala/<br>
+├── bot.py # Arquivo principal, ponto de entrada do bot<br>
+├── views.py # Interfaces e componentes interativos do Discord<br>
+├── escala_data.py # Lógica de negócios e manipulação de dados de escalação<br>
 ├── requirements.txt # Lista de dependências e bibliotecas utilizadas
 
 
