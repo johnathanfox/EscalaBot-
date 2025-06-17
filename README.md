@@ -60,3 +60,4 @@ Seu conteúdo é protegido por direitos autorais e **não pode ser reutilizado, 
 
 Caso você tenha acesso a este repositório como parte de uma avaliação técnica, dúvidas ou interesse em parcerias, entre em contato diretamente com o autor.
 
+
